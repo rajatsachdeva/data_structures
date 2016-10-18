@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+add_at_end	src/single_list.c	/^add_at_end($/;"	f
+add_at_start	src/single_list.c	/^add_at_start($/;"	f
+data	include/linked_list.h	/^    list_data_t data;$/;"	m	struct:list_node_t
+data	src/single_list.c	/^    void *data;$/;"	m	struct:list_node_t	file:
+delete_from_end	src/single_list.c	/^delete_from_end(list_node *head) {$/;"	f
+delete_from_start	src/single_list.c	/^delete_from_start(list_node **head) {$/;"	f
+iterate_func_t	src/single_list.c	/^typedef void (*iterate_func_t)(list_data_t data); \/\/iterate_func_t;$/;"	t	file:
+iterate_list	src/single_list.c	/^void iterate_list(list_node* head, iterate_func_t func, list_data_t data) {$/;"	f
+list_data_t	include/linked_list.h	/^typedef void* list_data_t;$/;"	t
+list_data_t	src/single_list.c	/^typedef void* list_data_t;$/;"	t	file:
+list_node	include/linked_list.h	/^}list_node;$/;"	t	typeref:struct:list_node_t
+list_node	src/single_list.c	/^}list_node;$/;"	t	typeref:struct:list_node_t	file:
+list_node_t	include/linked_list.h	/^typedef struct list_node_t {$/;"	s
+list_node_t	src/single_list.c	/^typedef struct list_node_t {$/;"	s	file:
+main	src/single_list.c	/^int  main(int argc, char **argv){$/;"	f
+next	include/linked_list.h	/^    struct list_node_t* next;$/;"	m	struct:list_node_t	typeref:struct:list_node_t::list_node_t
+next	src/single_list.c	/^    struct list_node_t *next;$/;"	m	struct:list_node_t	typeref:struct:list_node_t::list_node_t	file:
+print_data	src/single_list.c	/^void print_data(int *item)$/;"	f
+print_list	src/single_list.c	/^void print_list(list_node* head) {$/;"	f
+queue_insert	src/single_list.c	/^queue_insert( list_node* front,$/;"	f
+queue_remove	src/single_list.c	/^queue_remove(list_node** front) {$/;"	f
+stack_pop	src/single_list.c	/^stack_pop(list_node** top) {$/;"	f
+stack_push	src/single_list.c	/^stack_push(list_node* top, $/;"	f
