@@ -2,14 +2,14 @@
 *
 * SINGLE LINKED LIST PROGRAM
 *
-* Add at start/ begining - done error handling remaining
-* Add at end/ append - done same as above
-* Delete from Start/ begining - done 
-* Delete at END - done
-* print list in normal order - done 
+* Add at start/ begining
+* Add at end/ append
+* Delete from Start/ begining
+* Delete at END
+* print list in normal order 
 * print list in reverse order
 * revrese the list
-* iterate function generic - done
+* iterate function generic
 ************************************************************/
 
 #include "linked_list.h"
